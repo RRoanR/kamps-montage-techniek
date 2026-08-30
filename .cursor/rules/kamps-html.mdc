@@ -1,0 +1,25 @@
+---
+description: Thin HTML shells, sitemap, and robots for static routes.
+globs: ["**/index.html", "sitemap.xml", "robots.txt"]
+alwaysApply: false
+---
+
+# HTML shells and crawl files
+
+Route `index.html` files are shells only:
+
+```html
+<html lang="nl">
+  <!-- stylesheet + module script with cache query -->
+  <body data-page="..." data-service="...">
+    <main id="main"></main>
+  </body>
+</html>
+```
+
+- `data-page` required. `data-service` only on service routes, matching a `SERVICES` slug.
+- Do not put page copy in the shell. Rendering happens in `assets/site.js`.
+- Keep `lang="nl"`, favicon, stylesheet, and `type="module"` script.
+- If `assets/site.js` or `assets/styles.css` change, bump `?v=` on every shell that loads them.
+
+New public route: add the shell, the renderer, and a `<url>` in `sitemap.xml`. `robots.txt` should stay allow-all with the production sitemap URL.
