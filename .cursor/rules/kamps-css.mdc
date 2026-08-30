@@ -1,0 +1,20 @@
+---
+description: CSS token and layout conventions for the existing static stylesheet.
+globs: assets/styles.css
+alwaysApply: false
+---
+
+# CSS
+
+Use the existing `:root` tokens. Do not add a second palette, font stack, or design system.
+
+```css
+--ink, --muted, --line, --paper, --soft,
+--accent, --accent-strong, --roof, --ok,
+--shadow, --radius
+```
+
+- Shared width: `min(1180px, calc(100% - 36px))` via `.section-inner` and friends.
+- Sticky header, topbar, service nav, and sticky mobile CTA are load-bearing. Don't remove them to "clean up" the layout.
+- Prefer extending existing classes (`.btn`, `.card`, `.section`, `.grid`) over new one-off components.
+- Keep the stylesheet vanilla CSS. No Tailwind, no CSS-in-JS, no extra preprocessor.
