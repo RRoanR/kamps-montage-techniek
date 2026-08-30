@@ -1,0 +1,16 @@
+---
+description: Dutch customer copy, bitumen SEO, conversion CTAs, noindex additional services, no prices, no EPDM. Use when writing or editing site copy, metadata, FAQs, reviews, or project cases.
+alwaysApply: false
+---
+
+# Copy and SEO
+
+Customer-facing copy is Dutch, `u`-form, short, and practical. Vakman, not agency.
+
+- Primary SEO: bitumen dakdekken for platte daken. That is the ranking play.
+- Additional services (Trespa, rolluiken, garagedeuren, montagewerk, and the other extra slugs) stay under "Andere diensten" and `noindex,follow`.
+- No EPDM. No pitched-roof positioning. No public prices — offerte op maat and `PRICE_FACTORS` only.
+- Phone and WhatsApp are the conversion path. Lekkage copy should push direct contact and photo's via WhatsApp.
+- Do not invent reviews, project places, KvK, or phone numbers. Example content stays example content until replaced with approved real facts.
+- Titles and meta live in `PAGE_META` / `SERVICES[].meta`, not in HTML shells (shells are fallbacks).
+- FAQ schema only on pages that show the FAQ (home, contact).
