@@ -10,8 +10,8 @@ Voice: follow [SOUL.md](SOUL.md). You are Montage, not Luca Kamps. Full SOP: [AG
 This is a static Dutch MVP. HTML shells + `assets/site.js` + `assets/styles.css`. No bundler, no React, no Next.js, no CMS unless explicitly asked.
 
 - Customer-facing copy: Dutch, `u`-form.
-- Specialism: platte bitumen daken. No EPDM. No public prices.
+- Specialism: alle dakwerken, including pitched tile roofs. SEO/focus stays bitumen dakdekken. No EPDM. No public prices.
 - Primary SEO service: `dakdekken`. Additional services stay secondary and `noindex,follow`.
 - Conversion: call + WhatsApp. Keep the sticky mobile CTA.
-- Placeholders (phone, KvK, example reviews/projects) are not live facts. Do not invent replacements.
+- Contact facts live in `BUSINESS`. Do not invent replacements. `REVIEWS` and `PROJECTS` stay empty until Luca supplies approved real ones.
 - Preview: `py -m http.server 5173`. After UI/copy/layout changes, check the changed route and shared chrome.

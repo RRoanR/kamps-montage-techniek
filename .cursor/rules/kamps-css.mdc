@@ -15,6 +15,6 @@ Use the existing `:root` tokens. Do not add a second palette, font stack, or des
 ```
 
 - Shared width: `min(1180px, calc(100% - 36px))` via `.section-inner` and friends.
-- Sticky header, topbar, service nav, and sticky mobile CTA are load-bearing. Don't remove them to "clean up" the layout.
+- Sticky header, topbar, and sticky mobile CTA are load-bearing. Don't remove them to "clean up" the layout. Service-nav is optional — the header rewrite no longer renders it; keep the CSS if the markup comes back.
 - Prefer extending existing classes (`.btn`, `.card`, `.section`, `.grid`) over new one-off components.
 - Keep the stylesheet vanilla CSS. No Tailwind, no CSS-in-JS, no extra preprocessor.

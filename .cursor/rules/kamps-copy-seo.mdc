@@ -7,10 +7,11 @@ alwaysApply: false
 
 Customer-facing copy is Dutch, `u`-form, short, and practical. Vakman, not agency.
 
-- Primary SEO: bitumen dakdekken for platte daken. That is the ranking play.
-- Additional services (Trespa, rolluiken, garagedeuren, montagewerk, and the other extra slugs) stay under "Andere diensten" and `noindex,follow`.
-- No EPDM. No pitched-roof positioning. No public prices — offerte op maat and `PRICE_FACTORS` only.
+- Primary SEO: bitumen dakdekken (torch-applied) on `/diensten/dakdekken/`. Home H1 is the result line (“Een waterdicht dak, vakkundig aangebracht.”) with bitumen as the proposition — not “alle soorten dakwerken” and not EPDM in the hero.
+- Positioning: alle dakwerken, including schuine daken met pannen and other dakrenovatie. Schuine daken stay in FAQ, forms, and service copy, not in the home hero. Do not revert to “only flat bitumen / no pitched roofs”.
+- Additional services (Trespa, montagewerk, and the other extra slugs) stay under "Andere diensten" and `noindex,follow`. No rolluiken or garagedeuren. No new pannendak or EPDM pages.
+- No EPDM. No public prices — offerte op maat and `PRICE_FACTORS` only. Form may offer “Schuin dak / pannendak” and “Andere dakrenovatie” without new URLs.
 - Phone and WhatsApp are the conversion path. Lekkage copy should push direct contact and photo's via WhatsApp.
-- Do not invent reviews, project places, KvK, or phone numbers. Example content stays example content until replaced with approved real facts.
+- Do not invent reviews, project places, KvK, or phone numbers. `REVIEWS` and `PROJECTS` stay empty until Luca supplies approved real ones.
 - Titles and meta live in `PAGE_META` / `SERVICES[].meta`, not in HTML shells (shells are fallbacks).
 - FAQ schema only on pages that show the FAQ (home, contact).

@@ -8,17 +8,18 @@ alwaysApply: false
 
 All customer copy, nav, schema, and page HTML live in this file. Edit the objects. Do not scatter copy into HTML shells.
 
-- `BUSINESS` — contact and identity. Phone/WhatsApp/KvK may still be placeholders.
+- `BUSINESS` — contact and identity. Use the values already in this object; do not invent new ones.
 - `SERVICES` — per-slug copy. `urgent` only on lekkage/spoed.
 - `PRIMARY_SERVICE_SLUGS` — `dakdekken` only. Uses `servicePage`.
 - `ADDITIONAL_SERVICE_SLUGS` — simpler `additionalServicePage` plus `noindex,follow` in `setMeta`. Do not move slugs between lists unless asked.
-- `PROJECTS` — plaats, dienst, `before`, `work`, resultaat, CTA, alt.
+- `PROJECTS` — plaats, dienst, `before`, `work`, resultaat, CTA, alt. Stay empty until Luca supplies approved cases.
+- `WORK_PHOTOS` — real job photos with honest alts. No invented places.
 - `REVIEWS`, `FAQS`, `PRICE_FACTORS`, `PAGE_META`
 
 Rules inside this file:
 
 - Escape interpolated strings with `escapeHtml`.
-- Contact form prepares mailto / WhatsApp text. No backend submit.
+- Contact and offerte forms post to Web3Forms. Do not revert them to mailto.
 - FAQ JSON-LD only on home and contact (where FAQ markup is visible).
 - `RoofingContractor` schema on every page; `Service` schema on service pages.
 - Keep phone + WhatsApp CTAs and the sticky mobile footer.

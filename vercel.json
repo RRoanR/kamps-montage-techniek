@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    {
+      "source": "/privacy",
+      "destination": "/privacyverklaring/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy/",
+      "destination": "/privacyverklaring/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten/rolluiken-plaatsen",
+      "destination": "/diensten/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten/rolluiken-plaatsen/",
+      "destination": "/diensten/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten/garagedeuren-plaatsen",
+      "destination": "/diensten/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten/garagedeuren-plaatsen/",
+      "destination": "/diensten/",
+      "permanent": true
+    }
+  ]
+}

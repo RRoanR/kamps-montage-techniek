@@ -14,12 +14,11 @@ Then open `http://127.0.0.1:5173/`.
 
 ## Replace Before Launch
 
-- `assets/logo.svg`: replace with the real SVG logo.
-- `assets/bitumen-dak-hero.png`: replace or supplement with real project photos.
-- `assets/site.js`: update phone, WhatsApp, e-mail, KvK, vestigingsplaats, owner details and domain.
-- Replace example reviews with approved real reviews.
-- Replace example projects with real projectcases and alt text with actual place names.
-- The contact form currently prepares an e-mail or WhatsApp message client-side. Connect it to e-mail, CRM or a form endpoint when a backend is available.
+- Designer logo if Luca supplies one (current mark: `assets/logo.png`).
+- Real project photos to replace the documentary service images in `assets/`.
+- Approved reviews in `REVIEWS` and real project cases in `PROJECTS` (arrays are empty on purpose).
+- Confirm `BUSINESS` contact facts with Luca if anything changes.
+- Contact and offerte forms send through Web3Forms to the business inbox. Photos still go via WhatsApp.
 - Have the privacyverklaring reviewed before publishing.
 
 ## Content Model
